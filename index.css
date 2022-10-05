@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  transition: background-color, 0.8s;
+}
+.main {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  padding: 3em 0;
+}
+
+.radio-container {
+  display: flex;
+  font-size: 22px;
+  padding: 0 1em;
+}
+
+button {
+  padding: 0.6em 0.9em;
+  line-height: 1.5em;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border: none;
+}
+.main > h1 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+#summer {
+  border:3px solid #c8d2d1;
+  color: #ee9b01;
+}
+#winter {
+  border:3px solid #1f4b8e;
+  color: #1f4b8e;
+}
+
+#autumn {
+  border:3px solid #606c38;
+  color: #283618;
+}
+
+#spring {
+  border:3px solid #fe98ab;
+  color: #00b5a1;
+}
+@media screen and (min-width: 700px) {
+  .main > h1 {
+    font-size: 3rem;
+  }
+  button {
+    padding: 0.7em 1em;
+    font-size: 1.2rem;
+  }
+  .radio-container {
+    padding: 0 2em;
+  }
+}
