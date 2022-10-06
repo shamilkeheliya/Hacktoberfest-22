@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -43,7 +39,6 @@ button {
 
 button:hover {opacity: 1}
 
-
 .main > h1 {
   text-transform: uppercase;
   font-size: 1.6rem;
@@ -78,4 +73,3 @@ button:hover {opacity: 1}
   .radio-container {
     padding: 0 2em;
   }
-}
