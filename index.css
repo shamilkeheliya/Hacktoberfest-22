@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 /* Dropdown Button */
 .dropbtn {
@@ -64,16 +60,22 @@ body {
   font-size: 22px;
   padding: 0 1em;
 }
-
 button {
-  padding: 0.6em 0.9em;
-  line-height: 1.5em;
-  font-size: 0.8rem;
-  cursor: pointer;
-  font-weight: bolder;
-  text-transform: uppercase;
   border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
 }
+
+button:hover {opacity: 1}
+
 .main > h1 {
   text-transform: uppercase;
   font-size: 1.6rem;
@@ -81,30 +83,30 @@ button {
 #summer {
   border:3px solid #c8d2d1;
   color: #ee9b01;
+  background-color: #f4511e
 }
 #winter {
   border:3px solid #1f4b8e;
   color: #1f4b8e;
+  background-color: #B1B2FF
 }
 
 #autumn {
   border:3px solid #606c38;
   color: #283618;
+  background-color:#F7A76C
 }
 
 #spring {
   border:3px solid #fe98ab;
   color: #00b5a1;
+  background-color: #F94892
 }
 @media screen and (min-width: 700px) {
   .main > h1 {
     font-size: 3rem;
   }
-  button {
-    padding: 0.7em 1em;
-    font-size: 1.2rem;
-  }
+
   .radio-container {
     padding: 0 2em;
   }
-}
