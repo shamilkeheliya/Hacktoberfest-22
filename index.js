@@ -6,8 +6,7 @@ const springSeason = document.getElementById("spring")
 
 //Summer
 const summer = () => {
- document.body.style.backgroundColor = "#EE9B01"
- document.body.style.color = "#C8D2D1"
+ document.querySelector(".main").style.backgroundColor = "rgb(244 165 18 / 74%)"
 
 }
 summerSeason.addEventListener("click", summer)
@@ -15,16 +14,14 @@ summerSeason.addEventListener("click", summer)
 
 //Winter
 const winter = () => {
-  document.body.style.backgroundColor = "#1f4b8e"
-  document.body.style.color = "#f1ece6"
+  document.querySelector(".main").style.backgroundColor = "#FFC090"
   
 }
 winterSeason.addEventListener("click", winter)
 
 //Autumn
 const autumn = () => {
-  document.body.style.backgroundColor = "#283618"
-  document.body.style.color = "#606c38"
+  document.querySelector(".main").style.backgroundColor = "#922e4a"
 
   
 }
@@ -32,8 +29,7 @@ autumnSeason.addEventListener("click", autumn)
 
 //Spring
 const spring = () => {
-  document.body.style.backgroundColor = "#00b5a1"
-  document.body.style.color = "#fe98ab"
+  document.querySelector(".main").style.backgroundColor = "#A3C566"
   
 }
 springSeason.addEventListener("click", spring)
