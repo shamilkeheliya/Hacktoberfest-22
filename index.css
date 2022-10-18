@@ -16,6 +16,9 @@ nav{
   height: 100px;
   width: 100%;
 }
+.nav-links{
+  display: flex;
+}
 label.logo{
   color: white;
   font-size: 50px;
@@ -110,6 +113,7 @@ a.active,a:hover{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   transition: background-color, 0.8s;
+  margin-top: 42px;
 }
 
 .dropdown {
@@ -182,22 +186,9 @@ button {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  box-shadow: 0.4rem 1rem 2rem 0.3rem rgba(16, 36, 32, 0.288);
-
-}
-button:hover{
-  
-  
-  transition: 0.5s;
-  opacity: 1;
-}
-button:active{
-  box-shadow: 0 1rem 2rem 0.5rem rgba(16, 36, 32, 0.185);
-  transform: translate(0,0.5rem);
-  scale: 0.8;
 }
 
-/* button:hover {opacity: 1} */
+button:hover {opacity: 1}
 
 .main > h1 {
   text-transform: uppercase;
