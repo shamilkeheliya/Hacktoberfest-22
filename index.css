@@ -114,7 +114,13 @@ a.active,a:hover{
 
 .dropdown {
   position: absolute;
+  /* display: flex; */
+}
+.navi{
   display: flex;
+  
+}.services{
+  margin-left: 96px;
 }
 
 .dropdown-content {
