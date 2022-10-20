@@ -20,7 +20,7 @@
     <title>Winter Season</title>
 </head>
 
-<body style="background-color: rgb(114, 119, 130);">
+<body style="background-color: rgb(237, 239, 243);">
     
         <div class='snow-flakes'> <div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div><div class='flake'></div></div>
     
@@ -36,13 +36,17 @@
                     <h2>Tuesday, March 21, 2023</h2>
                 </button>
             </div>
+        </div>
 
-            <div>
-                <img src="Winter.jpg" alt="Smiley face" width="500" height="300"
-                    style="vertical-align:middle;margin:0px 50px;padding-top: 30px;">
-            </div>
+            <div class="wrapper">
+                <div class="zoom-effect-container">
+                  <div class="image-card">
+                    <img src="Winter.jpg" alt="Smiley face" width="100%" height="100%"
+                    >
+                  </div>
+           
 
-            <div>
+             <div class="bottom-left">
                 <p>Winter is the coldest season of the year in polar and temperate climates. It occurs after autumn and
                     before spring. The tilt of Earth's axis causes seasons; winter occurs when a hemisphere is oriented
                     away from the Sun. Different cultures define different dates as the start of winter, and some use a
@@ -56,11 +60,77 @@
                     this occurs has the shortest day and the longest night, with day length increasing and night length
                     decreasing as the season progresses after the solstice. 
                 </p>
-            </div>
+           
 
 
         </div>
+<style>
+    .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  #greeting{position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
 
+h1 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+h1 em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* === HEADING STYLE #1 === */
+#greeting {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+#greeting:before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  margin-left: -14px;
+  background-color: #1f52c8;
+}
+#greeting:after {
+  width: 100px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 25px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #1f52c8;
+}
+.container{
+  
+   margin-left: 600px;
+}
+p{
+    font-size: larger;
+}
+
+
+  
+</style>
 </body>
 
 </html>
