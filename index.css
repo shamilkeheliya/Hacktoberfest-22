@@ -20,7 +20,7 @@ nav{
   display: flex;
 }
 label.logo{
-  color: white;
+  color: red;
   font-size: 50px;
   line-height: 120px;
   padding: 0 100px;
@@ -44,7 +44,7 @@ nav ul li a{
   text-decoration: none;
 }
 a.active,a:hover{
-  background: #7ba7a9;
+  background: #7ba997;
   transition: .5s;
 }
 .checkbtn{
