@@ -1,6 +1,8 @@
-#include <iostream>
-
-int main() {
-    std::cout << "Hello World!";
-    return 0;
-}
+<!doctype html>
+<html>
+  <body>
+    <h1>
+      Hello Sri Lanka!
+    </h1>
+  </body>
+</html>
